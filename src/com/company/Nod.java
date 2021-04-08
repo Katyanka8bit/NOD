@@ -39,8 +39,6 @@ public class Nod {
         }
 
         return Stream.iterate(1, x -> x + 1).limit(number).filter(i -> number % i == 0).collect(Collectors.toList());
-
-
     }
 }
 
